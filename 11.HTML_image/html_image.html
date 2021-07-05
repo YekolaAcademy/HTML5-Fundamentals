@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <!--Title = use for the title of the page-->
+  <title>HTML5 Fundamentals</title>
+  <!--Meta = provide additional information about the HTML page-->
+  <meta name="author" content="Flavi Bumba">
+  <meta name="description" content="Learn the HTM5 Fundamentals course at Yekola Academy">
+  <!--link = relationship between our document and external resources-->
+  <link rel="stylesheet" href="my_css_file.css">
+  <!--Script - include js code in html and Noscript - give alternative option-->
+  <script src="my_js_file.js"></script>
+  <style>
+
+  body {
+  margin: 1em;
+  font: 1.25rem/1.4 Georgia, serif;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+thead,
+tfoot {
+    background-color: #3f87a6;
+    color: #fff;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+table {
+  width:100%;
+}
+  </style>
+</head>
+
+<body>
+    
+  <article>
+    <h2>Adding an image</h2>
+    <figure>
+      <img src="images/hotel_paris.jpg"
+           alt="A Hotel in Paris">
+      <figcaption>A Hotel in Paris</figcaption>
+  </figure>
+  <figure>
+    <img src="images/hotel_hong_kong.jpg"
+         alt="A Hotel in Hong Kong">
+    <figcaption>A Hotel in Hong Kong</figcaption>
+</figure>
+<figure>
+  <img src="images/hotel_london.jpg"
+       alt="A Hotel in London">
+  <figcaption>A Hotel in London</figcaption>
+</figure>
+
+    <h2>HTML Table Syntax </h2>
+      <ol>
+          <li> The &lt; table &gt;tag define and display the HTML tables.</li>
+          <li> The &lt; tr &gt; tag define and display table row  </li>
+          <li> The &lt; th &gt; tag define and display table header  </li>
+          <li> The &lt; td &gt; tag define and display table data  </li>
+
+      </ol>
+      <h2>Symantic Table Syntax </h2>
+      <ul>
+        <li> &lt;thead &gt; - header that label the content in each column</li>
+        <li> &lt;tbody &gt; - body of the table </li>
+        <li>&lt;tfoot &gt; - describes the sum-up table information</li>
+        <li>&lt;caption &gt; - description of the table’s purpose and the information </li>
+      </ul>
+      
+
+    
+   
+  </article>
+  <hr>
+  <footer>
+    &copy; Yekola Academy
+  </footer>
+</body>
+
+</html>

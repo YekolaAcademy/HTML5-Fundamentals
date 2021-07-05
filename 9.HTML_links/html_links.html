@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <!--Title = use for the title of the page-->
+  <title>HTML5 Fundamentals</title>
+  <!--Meta = provide additional information about the HTML page-->
+  <meta name="author" content="Flavi Bumba">
+  <meta name="description" content="Learn the HTM5 Fundamentals course at Yekola Academy">
+  <!--link = relationship between our document and external resources-->
+  <link rel="stylesheet" href="my_css_file.css">
+  <!--Script - include js code in html and Noscript - give alternative option-->
+  <script src="my_js_file.js"></script>
+  <style>
+
+       background: url(images/up.gif) no-repeat right center;
+    padding-right: 20px;
+}
+  </style>
+</head>
+
+<body>
+  <header> 
+    <h1>HTML mini tutorial </h1>
+    <h2>How to create lists and linking documents</h2>
+  </header>
+
+  <article>
+    <section>
+      <p id="bookmark" >You can learn more by visiting 
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks">
+          Mozilla Development Network</a>.
+        </p>
+      <h3>unordered Lists</h3>
+      <p> An unordered list created using the &lt; ul &gt; element,
+         and each list item starts with the &lt; li &gt; element.</p>
+         <h3>My favorites cake</h3>
+         <ul>
+          <li>Chocolate Cake</li>
+          <li>Banana Cake</li>
+          <li>Pineapple Cake</li>
+        </ul>
+        <h3>Ordered Lists</h3>
+        <p> An ordered list created using the &lt; ol &gt; element,
+          and each list item starts with the &lt; li &gt; element.</p>
+          <h3>The essay structure </h3>
+        <ol>
+          <li>introduction </li>
+          <li> body </li>
+          <li>conclusion</li>
+        </ol>
+        <h3>The essay structure - using the roman number style </h3>
+        <ol type="I">
+          <li>introduction </li>
+          <li> body </li>
+          <li>conclusion</li>
+        </ol>
+    </section>
+      
+      
+      
+    <hr>
+    <section>
+      <h3>Definition list</h3>
+     <dl>
+        <dt>The &lt; dl &gt; element</dt>
+        <dd>List item definitions</dd>
+        <dt>The &lt; dt &gt; element </dt>
+        <dd>Defines a single term inline with body content.</dd>
+        <dt>The &lt; dd &gt; element</dt>
+        <dd>A description for a defined term</dd>
+    </dl>
+    </section>
+   <section>
+    <h3>Relative link</h3>
+    <p><a href="html_lists.html" title="paragraphs">Learn more
+    </a> This link will take you to creating lists webpage and what we called a relative link .</p>
+    
+    <h3>Target attribute - points to where the link will be opened
+      </h3>
+    <p><a href="https://www.youtube.com/watch?v=LU5Xp6gGbFQ" target="_blank">
+      Watch the video (stream opens in separate tab, HD quality)
+    </a></p>
+
+    <h3>Link Bookmarks - anchor text used to bring users 
+      to specific place in a page
+      </h3>
+   <p><a href="#bookmark">Mozilla Development Network.</a>
+     This bookmrk link will bring you to the Mozilla Development Network link above</p> 
+       
+       <a href="#mainHeader">return to top</a>
+
+     <h3> E-mail link</h3>
+     <a href="mailto:info@yekolacademy.com
+     ">Email us</a>
+   </section>
+  </article>
+  <hr>
+  <footer>
+    &copy; Yekola Academy
+  </footer>
+</body>
+
+</html>

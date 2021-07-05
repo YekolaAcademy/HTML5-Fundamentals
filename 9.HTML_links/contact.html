@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Flavi Bumba">
+	<meta name="description" content="Learn the CSS3 Fundamentals course at Yekola Academy">
+
+	<!--link = relationship between our document and external resources-->
+	<link rel="stylesheet" href="css/normalize.css">
+    
+	<link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css">
+    
+    <script src="https://use.fontawesome.com/f71e8e8f47.js"></script>
+
+    <!-- Embedded Stylesheet -->
+	<style>
+        .favorite_cake li {
+          margin-left: 26px;
+        }
+         .aside_list{
+            background-color: #417ff4;
+            
+        }
+        
+	</style>
+</head>
+<body>
+	<div id="container">
+		<header>
+             <img class="header_logo" src="img/HTML5_Logo.svg" alt="HTML5" />
+            
+			<h1 class="pageheader">Welcome to HTML5 Fundamentals Web Docs</h1>
+		</header>
+        <div class="clr"></div>
+		<nav>
+			<ul>
+				<li ><a  href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+				<li><a href="tutorial_demo.html"><i class="fa fa-video-camera" aria-hidden="true"></i>Tutorial</a></li>
+				<li><a class="active"  href="contact.html"> <i class="fa fa-tty" aria-hidden="true"></i> Contact</a></li>
+			</ul>
+		</nav>
+
+		<main>
+        <article>
+       <fieldset>
+				<p> <span class ="cap">W</span>e highly value your comments and feedbacks.</p> 
+				<p> Please fill in the form bellow with your comment or your feedback ! </p> 
+               
+			<form action="contact.php" method="post">
+
+				<p>
+					<label for="name">Name:</label>
+					<input name="name" id="name" type="text"/>
+				
+				</p>
+
+				<p>
+					<label for="email">Email:</label>
+					<input name="email" id="email" type="text"/> 
+					
+				</p>
+
+				<p>
+					<label for="subject">Subject:</label>
+					<input name="subject" id="subject" type="text"/> 
+					
+				</p>
+
+				<p>
+					<label for="message">Message</label>
+					<textarea  rows="4" cols="50" name="message" id="message"></textarea> 
+					
+				</p>
+				<p class="submit">
+					<input type="submit" value="Submit" class="btn-submit"/>
+				</p>
+				</form>
+			</fieldset>
+        </article>
+        </main>
+        <aside>
+			<!--Secondary sidebar navigation -->
+				<h3>Favourites Online Docs</h3>
+				<ul class="aside_list" >
+				<li><a href="http://validator.w3.org/" >W3C validation service</a></li>
+				<li><a href="http://www.w3.org/community/webed/wiki/Main_Page">Opera Web Standards curriculum </a></li>
+				<li><a href="http://www.w3schools.com/TAGS/default.asp">HTML5 tag reference </a></li>
+                <li> <a href="https://www.youtube.com/watch?v=MMmOLN5zBLY" target="_blank">
+                Watch the video (stream opens in separate tab, HD quality)
+                </a></li>
+                <li>  <a href="mailto:info@yekolacademy.com">Email us </li>
+			   </ul>
+          
+                 
+             
+            
+		</aside>
+        
+		<div class="clr"></div>
+
+		<footer>
+			<p> &copy; 2021 Learning Journal | Design by Yekola Academy </p>
+		</footer>
+	</div>
+</body>
+</html>
